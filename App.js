@@ -3,9 +3,12 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import { StyleSheet, Text, View } from 'react-native';
+import { useNavigation } from "@react-navigation/native";
+
 
 import Home from './pages/HomePage.js';
 import MaisInfo from './pages/SecondPage.js';
+import ThirdPage from './pages/ThirdPage.js';
 
 
 const Tab = createBottomTabNavigator(); 

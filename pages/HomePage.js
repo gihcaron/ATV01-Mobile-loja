@@ -27,8 +27,8 @@ export default function Home() {
                 <View>
                     <Text style={styles.title}>Ninos Styles</Text>
                     <Text style={styles.subtitle}>A moda cresce com eles</Text>
-                    <TouchableOpacity onPress={() => navigation.navigate('About')}>
-                        <Text style={styles.buttonText}>Confira nossos produtos </Text>
+                    <TouchableOpacity onPress={() => navigation.navigate('ThirdPage')}>
+                        <Text style={styles.buttonText}>Conheça nossos produtos</Text>
                     </TouchableOpacity>
                 </View>
         </ScrollView>
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
         top: 20,
         marginHorizontal: 300,
         alignContent: 'center',
-        
+
     },
     logo: {
         width: 90,
